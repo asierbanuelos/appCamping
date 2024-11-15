@@ -1,0 +1,83 @@
+
+
+ion-toolbar {
+  --padding-start: 8px;
+  --padding-end: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 150px; /* Ajusta la altura según el diseño deseado */
+}
+
+
+ion-searchbar {
+
+  --background: #e0e0e0; /* Fondo gris del buscador */
+  --color: #000; /* Color del texto en el buscador */
+  --placeholder-color: #a0a0a0; /* Color del texto placeholder */
+  --cancel-button-color: #000; /* Color del botón de cancelar */
+  --padding-start: 8px;
+  --border-radius: 4px;
+  width: 100%; /* Que el buscador ocupe el espacio disponible */
+}
+
+ion-grid{
+  padding: 0;
+}
+.accommodation-card {
+  display: flex;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #557E8C;
+  width: 95%;
+}
+
+.accommodation-card img {
+  width: 40%; /* La imagen ocupará el 100% del ancho de la tarjeta */
+  height: 280px; /* Ajusta la altura según lo que necesites */
+  object-fit: cover; /* Mantiene la imagen en proporción */
+  border-radius: 10px;
+}
+
+.accommodation-card h2 {
+  font-size: 18px;
+  color: #ffffff;
+  display: flex;
+
+}
+
+.details {
+  display: flex;
+  flex-direction: column; /* Organiza los detalles en una columna */
+  margin-top: 10px;
+  
+}
+
+.detail-item {
+  text-align: left;
+  font-size: 14px;
+  color: #ffffff;
+  margin-bottom: 8px;
+  align-content: center;
+}
+
+
+.detail-item ion-icon {
+  font-size: 15px;
+  color: #ffffff;
+  background-color: #8cb9c7;
+  border-radius: 20px;
+  padding: 5px;
+  border: 1px solid #ffffff;
+  margin-right: 15px; /* Aumenta la separación entre el ícono y el texto */
+  
+}
+
+.price {
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 18px;
+  color: #ffffff;
+}
+
+

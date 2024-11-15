@@ -1,0 +1,119 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-icon name="arrow-back" class="large-icon" (click)="goToHome()"></ion-icon>
+    </ion-buttons>
+
+    <ion-searchbar placeholder="Buscar" show-cancel-button="focus" animated></ion-searchbar>
+
+    <div class="map-button-container">
+      <ion-button fill="solid" style="--background: #557E8C; --color: white; --box-shadow: 0px -4px 4px rgba(0, 0, 0, 0.7);">
+        <ion-icon slot="start" name="map-outline"></ion-icon>
+        Mapa
+      </ion-button>
+    </div>
+  </ion-toolbar>
+</ion-header>
+
+
+  <ion-grid>
+        <ion-card class="accommodation-card" (click)="goToAloIndividual()">
+          <img src="assets/img/descarga (2).jpg" alt="Zuhaitzpe" />
+          <ion-card-content>
+            <h2>
+              Zuhaitzpe 
+              <ion-icon name="star" style="color: gold; margin-inline-start: auto"></ion-icon>
+              <ion-icon name="star" style="color: gold; margin-right: 2px;"></ion-icon>
+              <ion-icon name="star" style="color: gold; margin-right: 2px;"></ion-icon>
+              <ion-icon name="star" style="color: gold; margin-right: 2px;"></ion-icon>
+            </h2>        
+            <div class="details">
+              <div class="detail-item">
+                <ion-icon name="resize-outline"></ion-icon>
+                <span>40m</span>
+              </div>
+              <div class="detail-item">
+                <ion-icon name="people-outline"></ion-icon>
+                <span>6</span>
+              </div>
+              <div class="detail-item">
+                <ion-icon name="bed-outline"></ion-icon>
+                <span>Partzela</span>
+              </div>
+              <div class="detail-item">
+                <ion-icon name="close-outline"></ion-icon>
+                <span>EZ</span>
+              </div>
+            </div>
+            <div class="price">
+              35€
+            </div>
+          </ion-card-content>
+        </ion-card>
+
+        <ion-grid>
+          <ion-card class="accommodation-card">
+            <img src="assets/img/descarga (3).jpg" alt="Zuhaitzpe" />
+            <ion-card-content>
+              <h2>
+                Txoriak 
+                <ion-icon name="star" style="color: gold; margin-right: 2px;"></ion-icon>
+                <ion-icon name="star" style="color: gold; margin-right: 2px;"></ion-icon>
+              </h2>        
+              <div class="details">
+                <div class="detail-item">
+                  <ion-icon name="resize-outline"></ion-icon>
+                  <span>40m</span>
+                </div>
+                <div class="detail-item">
+                  <ion-icon name="people-outline"></ion-icon>
+                  <span>3</span>
+                </div>
+                <div class="detail-item">
+                  <ion-icon name="bed-outline"></ion-icon>
+                  <span>Bungalow</span>
+                </div>
+                <div class="detail-item">
+                  <ion-icon name="close-outline"></ion-icon>
+                  <span>EZ</span>
+                </div>
+              </div>
+              <div class="price">
+                35€
+              </div>
+            </ion-card-content>
+          </ion-card>
+
+          <ion-grid>
+            <ion-card class="accommodation-card">
+              <img src="assets/img/descarga (2).jpg" alt="Zuhaitzpe" />
+              <ion-card-content>
+                <h2>
+                  Mendi 
+                  <ion-icon name="star" style="color: gold; margin-right: 2px;"></ion-icon>
+                  <ion-icon name="star" style="color: gold; margin-right: 2px;"></ion-icon>
+                  <ion-icon name="star" style="color: gold; margin-right: 2px;"></ion-icon>
+                </h2>        
+                <div class="details">
+                  <div class="detail-item">
+                    <ion-icon name="resize-outline"></ion-icon>
+                    <span>40m</span>
+                  </div>
+                  <div class="detail-item">
+                    <ion-icon name="people-outline"></ion-icon>
+                    <span>6</span>
+                  </div>
+                  <div class="detail-item">
+                    <ion-icon name="bed-outline"></ion-icon>
+                    <span>Partzela</span>
+                  </div>
+                  <div class="detail-item">
+                    <ion-icon name="close-outline"></ion-icon>
+                    <span>EZ</span>
+                  </div>
+                </div>
+                <div class="price">
+                  35€
+                </div>
+              </ion-card-content>
+            </ion-card>

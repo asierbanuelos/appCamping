@@ -1,0 +1,62 @@
+
+<ion-header [translucent]="true">
+  <ion-header>
+    <ion-toolbar>
+      <div class="header-content">
+        
+        <div class="logo-container">
+          <img src="assets/img/Diseño sin título (1).png" alt="Logo Camping" class="logo-container" (click)="goToHome()" />
+        </div>
+
+          <ion-row class="button-row">
+              <ion-button fill="solid" style="--background: #0d96c38a; --color: white; --box-shadow: 0px -4px 4px rgba(0, 0, 0, 0.7);">
+                <ion-icon slot="start" name="restaurant-outline"></ion-icon>
+                Jatetxea
+              </ion-button>
+              
+              <ion-button fill="solid" style="--background: #557E8C; --color: white; --box-shadow: 0px -4px 4px rgba(0, 0, 0, 0.7);"(click)="goToHome()">
+                <ion-icon slot="start" name="bed-outline"></ion-icon>
+                Ostatua
+              </ion-button>
+              <ion-button fill="solid" style="--background: #557E8C; --color: white; --box-shadow: 0px -4px 4px rgba(0, 0, 0, 0.7);"(click)="goToIgerilekua()">
+                <ion-icon slot="start" name="water-outline"></ion-icon>
+                Igerilekua
+              </ion-button>
+              <ion-button fill="solid" style="--background: #557E8C; --color: white; --box-shadow: 0px -4px 4px rgba(0, 0, 0, 0.7);"(click)="goToJarduerak()">
+                <ion-icon slot="start" name="walk-outline"></ion-icon>
+                Jarduerak
+              </ion-button>
+          </ion-row>
+      </div>
+    </ion-toolbar>
+  </ion-header>
+
+  <swiper-container>
+    <swiper-slide><img src="assets/img/comedor-restaurante-abrasador.jpg" alt="Imagen 1"></swiper-slide>
+    <swiper-slide><img src="assets/img/el-comedor-del-restaurante.jpg" alt="Imagen 2"></swiper-slide>
+    <swiper-slide><img src="assets/img/568368545.jpg" alt="Imagen 3"></swiper-slide>
+  </swiper-container>
+  <ion-content>
+
+    <ion-grid>
+      <ion-row class="header">
+        <ion-col>Janaria</ion-col>
+        <ion-col>Ordutegia</ion-col>
+      </ion-row>
+  
+      <ion-row>
+        <ion-col>Goiza</ion-col>
+        <ion-col>Astelehenetik igandera: 08:00 - 10:00</ion-col>
+      </ion-row>
+  
+      <ion-row>
+        <ion-col>Bazkaria</ion-col>
+        <ion-col>Astelehenetik igandera: 13:00 - 15:00 </ion-col>
+      </ion-row>
+  
+      <ion-row>
+        <ion-col>Afaria</ion-col>
+        <ion-col>Astelehenetik Igandera: 19:00 - 21:00</ion-col>
+      </ion-row>
+    </ion-grid>
+  </ion-content>

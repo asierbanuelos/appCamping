@@ -1,0 +1,97 @@
+ion-toolbar {
+    display: flex;
+    height: 100px; 
+  }
+
+  .large-icon {
+    font-size: 32px;
+  }
+
+ion-grid {
+    margin-top: 20px;
+}
+
+  ion-img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 5px; 
+    align-items: center;
+  }
+
+  .accommodation-card h2 {
+    font-size: 25px;
+    display: flex;
+    color: black;
+  }
+  
+  .accommodation-info {
+    padding: 20px;
+    background-color: #ffffff;
+    color: #000000;
+    height: 300px;
+  }
+  
+  .info-header {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+  
+  .details {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px 0;
+    background-color: #557E8C;
+  }
+  
+  .detail-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size: 14px;
+    color:white;
+  }
+  
+  .detail-item ion-icon {
+    font-size: 22px;
+    color: #ffffff;
+    background-color: #8cb9c7;
+    border-radius: 20px;
+    padding: 5px;
+    border: 1px solid #ffffff;
+    margin-bottom: 5px;
+  }
+
+  .info{
+    margin-top: 20px;
+    font-size: 20px;
+  }
+
+  .detail-item-price{
+    
+    margin-top: 30px;
+    text-align: center;
+  }
+
+  
+  .price {
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 20px;
+  }
+  .white-button{
+    color: #ffffff;
+  }
+  ion-footer ion-toolbar {
+    --background:#557E8C ;
+  }
+
+  
+
+  
+      
+  
